@@ -1,900 +1,638 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shree Beauty | Beauty Parlour Westcliff-on-Sea, Southend | Nails, Threading, Waxing & Facials</title>
-<meta name="description" content="Shree Beauty – ladies-only beauty parlour in Westcliff-on-Sea, Southend-on-Sea, Essex. Expert gel nails, threading, waxing, eyelash extensions & facials. Book on WhatsApp instantly!">
-<meta name="keywords" content="beauty parlour Westcliff-on-Sea, beauty salon Southend-on-Sea, nail salon Essex, threading Southend, waxing Westcliff, eyelash extensions Southend, gel nails Essex, facial Westcliff, ladies beauty salon near London, Indian threading Essex, beauty treatment Leigh-on-Sea, eyebrow threading Southend, Brazilian wax Essex, gel manicure Southend, pedicure Westcliff, Shree Beauty, WhatsApp booking salon Essex">
-<meta name="robots" content="index, follow">
-<meta name="author" content="Shree Beauty">
-<link rel="canonical" href="https://shreebeauty.co.uk/">
-<meta name="geo.region" content="GB-ESS">
-<meta name="geo.placename" content="Westcliff-on-Sea, Southend-on-Sea, Essex">
-<meta property="og:type" content="business.business">
-<meta property="og:title" content="Shree Beauty | Ladies Beauty Parlour – Westcliff-on-Sea, Essex">
-<meta property="og:description" content="Premium ladies-only beauty salon in Westcliff-on-Sea. Book on WhatsApp! Gel nails, threading, waxing, lash extensions, facials & more.">
-<meta property="og:url" content="https://shreebeauty.co.uk/">
-<meta property="og:locale" content="en_GB">
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org","@type":"BeautySalon",
-  "name":"Shree Beauty","url":"https://shreebeauty.co.uk",
-  "description":"Ladies-only premium beauty parlour in Westcliff-on-Sea, Essex. Gel nails, threading, waxing, eyelash extensions and facials. Book via WhatsApp.",
-  "address":{"@type":"PostalAddress","streetAddress":"482 Fairfax Dr","addressLocality":"Westcliff-on-Sea","addressRegion":"Essex","postalCode":"SS0 9RN","addressCountry":"GB"},
-  "geo":{"@type":"GeoCoordinates","latitude":51.5394,"longitude":0.6969},
-  "openingHoursSpecification":[
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"19:00"},
-    {"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday"],"opens":"10:00","closes":"17:00"}
-  ],
-  "priceRange":"££","areaServed":[{"@type":"City","name":"Westcliff-on-Sea"},{"@type":"City","name":"Southend-on-Sea"},{"@type":"City","name":"Leigh-on-Sea"},{"@type":"City","name":"Essex"}],
-  "aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"84"}
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org","@type":"FAQPage",
-  "mainEntity":[
-    {"@type":"Question","name":"Where is Shree Beauty located?","acceptedAnswer":{"@type":"Answer","text":"482 Fairfax Dr, Westcliff-on-Sea, Southend-on-Sea, Essex SS0 9RN."}},
-    {"@type":"Question","name":"Can I book on WhatsApp?","acceptedAnswer":{"@type":"Answer","text":"Yes! Tap the WhatsApp button on our website to message us instantly and book your appointment for free — no app needed beyond WhatsApp."}},
-    {"@type":"Question","name":"Is Shree Beauty ladies only?","acceptedAnswer":{"@type":"Answer","text":"Yes, Shree Beauty is a ladies-only salon providing a safe, relaxing environment exclusively for women."}},
-    {"@type":"Question","name":"Do I need a patch test before eyelash treatments?","acceptedAnswer":{"@type":"Answer","text":"Yes — a patch test is required at least 24 hours before any eyelash extension or perming treatment."}}
-  ]
-}
-</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Your Demo Feedback</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet"/>
 <style>
 :root{
-  --pink:#e8547a;--deep-pink:#c93563;--blush:#f9d0dc;
-  --cream:#fdf6f0;--dark:#1a0a10;--gold:#c9a96e;--text:#3a1a24;--muted:#8a6070;
-  --wa:#25D366;--wa-dark:#128C7E;
+  --blue:#2563eb;--blue-2:#1d4ed8;--blue-bright:#3b82f6;
+  --violet:#7c3aed;--cyan:#06b6d4;--mint:#10b981;
+  --gold:#f59e0b;--coral:#f43f5e;--amber:#f59e0b;
+  --bg:#f0f4ff;--surface:#fff;--s2:#f7f9ff;--s3:#eef2ff;
+  --border:#dbe4ff;--border-2:#c7d2fe;
+  --ink:#0f172a;--ink-2:#1e3a5f;--ink-3:#4a6080;--ink-4:#94a3b8;
+  --sh-sm:0 4px 20px rgba(5,16,31,.08),0 1px 4px rgba(5,16,31,.04);
+  --sh-md:0 12px 40px rgba(5,16,31,.12),0 2px 8px rgba(5,16,31,.05);
+  --sh-lg:0 24px 64px rgba(5,16,31,.16),0 4px 16px rgba(5,16,31,.06);
+  --sh-xl:0 40px 100px rgba(5,16,31,.2),0 8px 24px rgba(5,16,31,.08);
+  --r-sm:12px;--r-md:16px;--r-lg:22px;--r-xl:28px;--r-2xl:36px;
 }
-*{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{font-family:'Montserrat',sans-serif;background:var(--cream);color:var(--text);overflow-x:hidden;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:'Sora',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;overflow-x:hidden}
 
-/* ── NAV ── */
-nav{position:fixed;top:0;width:100%;z-index:100;background:rgba(253,246,240,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(232,84,122,.15);display:flex;align-items:center;justify-content:space-between;padding:14px 48px;}
-.nav-logo{font-family:'Playfair Display',serif;font-size:21px;color:var(--pink);letter-spacing:1px;}
-.nav-logo span{color:var(--gold);font-style:italic;}
-.nav-links{display:flex;gap:28px;list-style:none;}
-.nav-links a{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--text);text-decoration:none;font-weight:500;transition:color .3s;}
-.nav-links a:hover{color:var(--pink);}
-.nav-right{display:flex;gap:10px;align-items:center;}
-.nav-wa{background:var(--wa);color:#fff;border:none;padding:9px 18px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:1px;font-weight:600;cursor:pointer;transition:all .3s;display:flex;align-items:center;gap:6px;text-decoration:none;}
-.nav-wa:hover{background:var(--wa-dark);transform:translateY(-1px);}
-.nav-wa svg{width:15px;height:15px;fill:#fff;flex-shrink:0;}
-.nav-book{background:var(--pink);color:#fff;border:none;padding:9px 20px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s;}
-.nav-book:hover{background:var(--deep-pink);transform:translateY(-1px);}
+/* ── BG BLOBS ── */
+.bg-scene{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.bb{position:absolute;border-radius:50%;filter:blur(80px);animation:bfloat 14s ease-in-out infinite alternate}
+.bb1{width:720px;height:720px;background:radial-gradient(circle,rgba(59,130,246,.3) 0%,transparent 70%);top:-220px;right:-160px;opacity:.38}
+.bb2{width:500px;height:500px;background:radial-gradient(circle,rgba(124,58,237,.25) 0%,transparent 70%);bottom:-120px;left:-120px;opacity:.28;animation-delay:-5s}
+.bb3{width:360px;height:360px;background:radial-gradient(circle,rgba(6,182,212,.2) 0%,transparent 70%);top:42%;left:52%;opacity:.2;animation-delay:-9s}
+@keyframes bfloat{from{transform:translate(0,0) scale(1)}to{transform:translate(28px,18px) scale(1.09)}}
 
-/* ── WHATSAPP FLOAT BTN ── */
-.wa-float{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--wa);color:#fff;border-radius:50px;padding:14px 22px;display:flex;align-items:center;gap:10px;box-shadow:0 6px 28px rgba(37,211,102,.4);cursor:pointer;text-decoration:none;font-family:'Montserrat',sans-serif;font-size:13px;font-weight:600;transition:all .3s;animation:waPulse 2s ease-in-out infinite;}
-.wa-float:hover{background:var(--wa-dark);transform:translateY(-3px);box-shadow:0 10px 36px rgba(37,211,102,.5);animation:none;}
-.wa-float svg{width:22px;height:22px;fill:#fff;flex-shrink:0;}
-@keyframes waPulse{0%,100%{box-shadow:0 6px 28px rgba(37,211,102,.4);}50%{box-shadow:0 6px 40px rgba(37,211,102,.7);}}
+/* ── HEADER ── */
+header{position:relative;z-index:1;background:linear-gradient(150deg,#050d1a 0%,#091c3a 38%,#0f2a5c 72%,#0d1f54 100%);overflow:hidden}
+header::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);background-size:30px 30px;animation:mdrift 22s linear infinite}
+@keyframes mdrift{from{background-position:0 0}to{background-position:30px 30px}}
+.ho{position:absolute;border-radius:50%;pointer-events:none}
+.ho1{width:680px;height:680px;background:radial-gradient(circle,rgba(59,130,246,.26) 0%,transparent 60%);top:-230px;right:-90px;animation:opulse 8s ease-in-out infinite alternate}
+.ho2{width:460px;height:460px;background:radial-gradient(circle,rgba(124,58,237,.2) 0%,transparent 60%);bottom:-10px;left:-90px;animation:opulse 11s ease-in-out infinite alternate-reverse}
+.ho3{width:290px;height:290px;background:radial-gradient(circle,rgba(6,182,212,.18) 0%,transparent 60%);top:48%;right:18%;animation:opulse 6s ease-in-out infinite alternate}
+@keyframes opulse{from{transform:scale(1);opacity:1}to{transform:scale(1.16);opacity:.65}}
 
-/* ── HERO ── */
-.hero{min-height:100vh;background:linear-gradient(135deg,#fff0f4 0%,#fce8d0 50%,#fff5f8 100%);display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;padding:120px 60px 60px;position:relative;overflow:hidden;}
-.hero::before{content:'';position:absolute;top:-120px;right:-120px;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(232,84,122,.1) 0%,transparent 70%);}
-.hero::after{content:'';position:absolute;bottom:-80px;left:-80px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(201,169,110,.1) 0%,transparent 70%);}
-.hero-content{z-index:1;}
-.hero-tag{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:18px;display:flex;align-items:center;gap:12px;}
-.hero-tag::before{content:'';display:inline-block;width:36px;height:1px;background:var(--gold);}
-.hero h1{font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,64px);line-height:1.1;color:var(--dark);margin-bottom:20px;}
-.hero h1 em{color:var(--pink);font-style:italic;}
-.hero p{font-size:14.5px;line-height:1.8;color:var(--muted);margin-bottom:32px;font-weight:300;}
-.hero-btns{display:flex;gap:12px;flex-wrap:wrap;}
-.btn-primary{background:var(--pink);color:#fff;padding:14px 32px;border:none;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-block;}
-.btn-primary:hover{background:var(--deep-pink);transform:translateY(-2px);box-shadow:0 10px 28px rgba(232,84,122,.35);}
-.btn-wa{background:var(--wa);color:#fff;padding:14px 26px;border:none;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:600;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-flex;align-items:center;gap:8px;}
-.btn-wa:hover{background:var(--wa-dark);transform:translateY(-2px);box-shadow:0 10px 28px rgba(37,211,102,.35);}
-.btn-wa svg{width:16px;height:16px;fill:#fff;}
+.hdr{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:76px 28px 60px;text-align:center}
 
-/* Hero mosaic — 3 UNIQUE images, none shared with gallery */
-.hero-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:210px 200px;gap:12px;z-index:1;}
-.h-img{border-radius:16px;overflow:hidden;position:relative;}
-.h-img.big{grid-row:1/3;border-radius:20px;}
-.h-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s;display:block;}
-.h-img:hover img{transform:scale(1.05);}
-.h-badge{position:absolute;bottom:12px;left:12px;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-radius:8px;padding:7px 12px;display:flex;align-items:center;gap:8px;}
-.h-badge .dot{width:7px;height:7px;background:var(--pink);border-radius:50%;flex-shrink:0;}
-.h-badge span{font-size:11px;font-weight:600;color:var(--dark);}
+.h-eye{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(14px);padding:8px 20px;border-radius:100px;margin-bottom:30px;animation:fdown .7s cubic-bezier(.22,1,.36,1) both}
+.h-dot{width:7px;height:7px;border-radius:50%;background:linear-gradient(135deg,#60a5fa,#a78bfa);box-shadow:0 0 10px #60a5fa;animation:dpulse 2.4s ease-in-out infinite}
+@keyframes dpulse{0%,100%{transform:scale(1);opacity:1;box-shadow:0 0 10px #60a5fa}50%{transform:scale(.6);opacity:.45;box-shadow:0 0 4px #60a5fa}}
+.h-eye span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#a5b4fc}
 
-/* ── TRUST BAR ── */
-.trust-bar{background:var(--dark);padding:16px 60px;display:flex;justify-content:center;gap:52px;flex-wrap:wrap;}
-.trust-item{display:flex;align-items:center;gap:9px;color:rgba(255,255,255,.75);font-size:12px;letter-spacing:.5px;}
-.trust-item span.ic{font-size:15px;}
+header h1{font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(2.3rem,5.5vw,4rem);font-weight:800;color:#fff;line-height:1.06;letter-spacing:-.03em;margin-bottom:20px;animation:fup .8s cubic-bezier(.22,1,.36,1) .1s both}
+.grad-text{display:block;background:linear-gradient(105deg,#60a5fa 0%,#a78bfa 38%,#34d399 78%,#60a5fa 100%);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:gflow 4s linear infinite}
+@keyframes gflow{from{background-position:0% center}to{background-position:200% center}}
 
-/* ── SECTIONS ── */
-section{padding:94px 60px;}
-.section-tag{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:14px;display:flex;align-items:center;gap:12px;}
-.section-tag::before{content:'';display:inline-block;width:28px;height:1px;background:var(--gold);}
-.section-title{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,48px);color:var(--dark);margin-bottom:14px;}
-.section-title em{color:var(--pink);font-style:italic;}
+/* ── TRUST STRIP ── */
+.trust-strip{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:36px;animation:fup .8s cubic-bezier(.22,1,.36,1) .2s both}
+.tp{display:flex;align-items:center;gap:7px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.11);color:rgba(255,255,255,.55);font-size:12px;font-weight:500;padding:7px 16px;border-radius:100px;transition:all .2s}
+.tp:hover{background:rgba(255,255,255,.1);color:rgba(255,255,255,.8)}
+.tp svg{width:13px;height:13px;color:#60a5fa;flex-shrink:0}
 
-/* ── WHATSAPP BOOKING BANNER ── */
-.wa-banner{background:linear-gradient(135deg,#1a3a2a,#0d5c3c);color:#fff;padding:56px 60px;text-align:center;position:relative;overflow:hidden;}
-.wa-banner::before{content:'';position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:rgba(37,211,102,.08);}
-.wa-banner::after{content:'';position:absolute;bottom:-60px;left:-60px;width:250px;height:250px;border-radius:50%;background:rgba(37,211,102,.06);}
-.wa-banner h2{font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,42px);margin-bottom:14px;color:#fff;}
-.wa-banner h2 em{color:#25D366;font-style:italic;}
-.wa-banner p{font-size:15px;opacity:.8;margin-bottom:32px;max-width:580px;margin-left:auto;margin-right:auto;line-height:1.8;}
-.wa-steps{display:flex;justify-content:center;gap:40px;margin-bottom:36px;flex-wrap:wrap;}
-.wa-step{display:flex;align-items:center;gap:12px;font-size:13px;opacity:.85;}
-.wa-step .num{width:28px;height:28px;border-radius:50%;background:rgba(37,211,102,.25);border:1px solid rgba(37,211,102,.4);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#25D366;flex-shrink:0;}
-.btn-wa-big{background:var(--wa);color:#fff;padding:18px 44px;border:none;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:14px;font-weight:700;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-flex;align-items:center;gap:12px;letter-spacing:.5px;}
-.btn-wa-big:hover{background:var(--wa-dark);transform:translateY(-3px);box-shadow:0 14px 36px rgba(37,211,102,.4);}
-.btn-wa-big svg{width:22px;height:22px;fill:#fff;}
-.wa-note{font-size:12px;opacity:.55;margin-top:14px;}
+/* ── SOCIAL PROOF ── */
+.social-proof{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;animation:fup .8s cubic-bezier(.22,1,.36,1) .3s both}
+.sp-faces{display:flex}
+.sp-face{width:34px;height:34px;border-radius:50%;border:2px solid rgba(255,255,255,.3);background:linear-gradient(135deg,#3b82f6,#7c3aed);display:flex;align-items:center;justify-content:center;font-size:13px;margin-left:-8px}
+.sp-face:first-child{margin-left:0}
+.sp-text{color:rgba(255,255,255,.55);font-size:12.5px}
+.sp-text strong{color:#93c5fd}
+.sp-stars{color:#f59e0b;font-size:14px;letter-spacing:1px}
 
-/* ── SERVICES ── */
-#services{background:#fff;}
-.svc-head{text-align:center;margin-bottom:52px;}
-.svc-head .section-tag{justify-content:center;}
-.svc-head .section-tag::before{display:none;}
-.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;max-width:1200px;margin:0 auto;align-items:stretch;}
-.service-card{background:var(--cream);border-radius:20px;padding:28px 22px;position:relative;overflow:hidden;cursor:pointer;transition:transform .3s,box-shadow .3s;border:1px solid rgba(232,84,122,.1);display:flex;flex-direction:column;}
-.service-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(232,84,122,.12);}
-.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--pink),var(--gold));border-radius:20px 20px 0 0;}
-.service-icon{font-size:30px;margin-bottom:10px;}
-.service-card h3{font-family:'Playfair Display',serif;font-size:19px;color:var(--dark);margin-bottom:10px;}
-.service-items{list-style:none;flex:1;}
-.service-items li{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid rgba(232,84,122,.08);font-size:12.5px;color:var(--muted);}
-.service-items li:last-child{border-bottom:none;}
-.price{color:var(--pink);font-weight:600;font-size:13px;}
-.book-wa{margin-top:14px;width:100%;background:var(--wa);color:#fff;border:none;padding:9px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:600;cursor:pointer;transition:all .3s;display:flex;align-items:center;justify-content:center;gap:7px;text-decoration:none;flex-shrink:0;}
-.book-wa:hover{background:var(--wa-dark);}
-.book-wa svg{width:13px;height:13px;fill:#fff;}
+.h-wave{display:block;line-height:0}
+.h-wave svg{width:100%;height:58px;display:block}
+@keyframes fup{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes fdown{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
 
-/* ── ABOUT ── */
-#about{background:linear-gradient(135deg,var(--dark) 0%,#2d0e1c 100%);color:#fff;display:flex;gap:80px;align-items:center;}
-.about-left{flex:1;}
-.about-left .section-title{color:#fff;}
-.about-left p{color:rgba(255,255,255,.65);line-height:1.9;font-size:14px;margin-bottom:18px;}
-.about-stats{display:flex;gap:34px;margin-top:32px;}
-.stat{text-align:center;}
-.stat h2{font-family:'Playfair Display',serif;font-size:38px;color:var(--gold);}
-.stat p{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:4px;}
-.about-right{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:13px;}
-.feature-box{background:rgba(255,255,255,.06);border-radius:16px;padding:20px;border:1px solid rgba(232,84,122,.2);transition:background .3s;}
-.feature-box:hover{background:rgba(232,84,122,.1);}
-.feature-box .icon{font-size:24px;margin-bottom:9px;}
-.feature-box h4{font-size:13px;font-weight:600;margin-bottom:5px;}
-.feature-box p{font-size:12px;color:rgba(255,255,255,.5);line-height:1.6;}
+/* ── PROGRESS ── */
+.prog-bar{position:sticky;top:0;z-index:100;background:rgba(240,244,255,.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--border)}
+.prog-in{max-width:900px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;gap:14px}
+.prog-steps{display:flex;gap:5px}
+.ps{height:4px;width:30px;border-radius:100px;background:var(--border-2);transition:background .4s,width .4s}
+.ps.done{background:linear-gradient(90deg,var(--blue),var(--violet));width:38px}
+.prog-track{flex:1;height:5px;background:var(--border);border-radius:100px;overflow:hidden}
+.prog-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--violet),var(--cyan));background-size:200% 100%;border-radius:100px;width:0%;transition:width .5s cubic-bezier(.4,0,.2,1);animation:shimmer 2.5s linear infinite}
+@keyframes shimmer{from{background-position:200% center}to{background-position:0% center}}
+.prog-lbl{font-size:11.5px;font-weight:700;color:var(--ink-3);white-space:nowrap}
 
-/* ── GALLERY ── */
-#gallery{background:var(--cream);}
-.gal-head{text-align:center;margin-bottom:38px;}
-.gal-head .section-tag{justify-content:center;}
-.gal-head .section-tag::before{display:none;}
+/* ── MAIN ── */
+main{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:44px 20px 90px;display:grid;gap:20px}
 
-/* 12 unique images across 3 rows — ZERO overlap with hero */
-.photo-grid{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:13px;
-  max-width:1200px;
-  margin:0 auto 50px;
-  grid-template-rows:220px 195px 225px;
+/* ── VALUE BANNER ── */
+.val-banner{background:linear-gradient(135deg,#eff6ff,#eef2ff);border:1.5px solid var(--border-2);border-radius:var(--r-xl);padding:24px 28px;display:flex;align-items:flex-start;gap:16px;opacity:0;transform:translateY(24px);animation:rise .6s cubic-bezier(.22,1,.36,1) .04s forwards}
+.val-icon{width:48px;height:48px;flex-shrink:0;background:linear-gradient(135deg,var(--blue),var(--violet));border-radius:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(37,99,235,.3)}
+.val-icon svg{width:24px;height:24px;color:#fff}
+.val-body h3{font-family:'Bricolage Grotesque',sans-serif;font-size:1.05rem;font-weight:800;color:var(--ink);margin-bottom:5px;letter-spacing:-.01em}
+.val-body p{font-size:13px;color:var(--ink-3);line-height:1.7}
+.val-body p strong{color:var(--blue-2)}
+
+/* ── CARDS ── */
+.card{background:var(--surface);border-radius:var(--r-xl);border:1px solid var(--border);box-shadow:var(--sh-sm);overflow:hidden;opacity:0;transform:translateY(26px);animation:rise .62s cubic-bezier(.22,1,.36,1) forwards;transition:box-shadow .3s,border-color .3s}
+.card:hover{box-shadow:var(--sh-md);border-color:var(--border-2)}
+.card::before{content:'';display:block;height:3px;background:linear-gradient(90deg,var(--blue),var(--violet),var(--cyan));opacity:0;transition:opacity .3s}
+.card:hover::before{opacity:1}
+.card:nth-child(2){animation-delay:.10s}.card:nth-child(3){animation-delay:.18s}.card:nth-child(4){animation-delay:.26s}.card:nth-child(5){animation-delay:.34s}.card:nth-child(6){animation-delay:.42s}
+@keyframes rise{to{opacity:1;transform:none}}
+
+.card-head{display:flex;align-items:flex-start;gap:16px;padding:24px 28px 20px;border-bottom:1px solid var(--s3)}
+.cnum{width:40px;height:40px;flex-shrink:0;background:var(--s3);border:1.5px solid var(--border-2);border-radius:11px;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-size:16px;font-weight:800;color:var(--blue-2);transition:all .25s}
+.card:hover .cnum{background:linear-gradient(135deg,var(--blue),var(--violet));border-color:transparent;color:#fff;box-shadow:0 4px 16px rgba(37,99,235,.3);transform:scale(1.06) rotate(-3deg)}
+.cht{flex:1}
+.cht h2{font-family:'Bricolage Grotesque',sans-serif;font-size:1rem;font-weight:800;color:var(--ink);letter-spacing:-.01em;margin-bottom:3px}
+.cht p{font-size:13px;color:var(--ink-3)}
+.stag{font-size:10.5px;font-weight:700;letter-spacing:.06em;color:var(--blue);background:var(--s3);border:1px solid var(--border-2);padding:3px 11px;border-radius:100px;flex-shrink:0;margin-top:2px}
+
+.card-body{padding:26px 28px}
+
+/* ── FORM ── */
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.fg .full{grid-column:1/-1}
+.field{display:flex;flex-direction:column;gap:8px}
+.fl{font-size:13px;font-weight:600;color:var(--ink-2);display:flex;align-items:center;gap:6px}
+.req{color:var(--coral);font-size:14px;line-height:1}
+.hint{font-size:12px;font-weight:400;color:var(--ink-4)}
+.iw{position:relative}
+.ii{position:absolute;left:14px;top:50%;transform:translateY(-50%);pointer-events:none;color:var(--ink-4);transition:color .2s}
+.ii svg{width:16px;height:16px;display:block}
+.field:focus-within .ii{color:var(--blue)}
+input[type=text],input[type=tel],select,textarea{font-family:'Sora',sans-serif;font-size:13.5px;color:var(--ink);background:var(--s2);border:1.5px solid var(--border);border-radius:var(--r-sm);padding:13px 16px 13px 42px;width:100%;outline:none;-webkit-appearance:none;transition:border-color .2s,box-shadow .2s,background .2s}
+textarea{padding-left:16px;resize:vertical;min-height:110px}
+select{padding-left:42px;cursor:pointer}
+input::placeholder,textarea::placeholder{color:var(--ink-4)}
+input:focus,select:focus,textarea:focus{border-color:var(--blue);background:#fff;box-shadow:0 0 0 4px rgba(37,99,235,.1)}
+.sw{position:relative}
+.sa{position:absolute;right:14px;top:50%;transform:translateY(-50%);pointer-events:none;color:var(--ink-4)}
+.sa svg{width:16px;height:16px}
+
+/* ── STARS ── */
+.star-row{display:flex;flex-direction:row-reverse;gap:3px;justify-content:flex-end}
+.star-row input{display:none}
+.star-row label{font-size:42px;color:var(--border-2);cursor:pointer;transition:color .15s,transform .25s cubic-bezier(.34,1.56,.64,1),filter .15s;user-select:none;line-height:1}
+.star-row label:hover,.star-row label:hover ~ label,.star-row input:checked ~ label{color:var(--gold);filter:drop-shadow(0 3px 9px rgba(245,158,11,.55))}
+.star-row label:hover{transform:scale(1.3) rotate(-8deg)}
+.star-pill{display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1px solid rgba(245,158,11,.3);color:#92400e;font-size:13px;font-weight:700;padding:6px 16px;border-radius:100px;opacity:0;transform:translateX(-8px);transition:opacity .3s,transform .3s;margin-top:8px;width:fit-content}
+.star-pill.show{opacity:1;transform:none}
+
+/* ── OPTIONS ── */
+.og{display:flex;flex-wrap:wrap;gap:10px}
+.og input{display:none}
+.og label{display:flex;align-items:center;gap:9px;padding:11px 20px;border-radius:var(--r-md);border:1.5px solid var(--border);font-size:13.5px;font-weight:500;color:var(--ink-2);cursor:pointer;background:var(--s2);transition:all .22s cubic-bezier(.4,0,.2,1);user-select:none}
+.og label svg{width:15px;height:15px;flex-shrink:0}
+.og label:hover{border-color:var(--blue-bright);background:var(--s3);transform:translateY(-2px);box-shadow:0 4px 16px rgba(37,99,235,.12)}
+.og input:checked + label{border-color:var(--blue);background:linear-gradient(135deg,#eff6ff,#eef2ff);color:var(--blue-2);box-shadow:0 4px 20px rgba(37,99,235,.18);transform:translateY(-2px)}
+.og-g input:checked + label{border-color:var(--mint);background:linear-gradient(135deg,#ecfdf5,#d1fae5);color:#065f46;box-shadow:0 4px 20px rgba(16,185,129,.18)}
+.og-a input:checked + label{border-color:var(--gold);background:linear-gradient(135deg,#fffbeb,#fef3c7);color:#78350f;box-shadow:0 4px 20px rgba(245,158,11,.18)}
+
+/* ── TILES ── */
+.tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:12px}
+.tg input{display:none}
+.tg label{display:flex;flex-direction:column;align-items:center;gap:10px;padding:20px 14px 16px;border-radius:var(--r-lg);border:1.5px solid var(--border);font-size:13px;font-weight:600;color:var(--ink-2);cursor:pointer;background:var(--s2);text-align:center;transition:all .25s cubic-bezier(.4,0,.2,1);user-select:none}
+.ti{width:42px;height:42px;border-radius:10px;background:var(--s3);display:flex;align-items:center;justify-content:center;font-size:22px;transition:all .25s}
+.tc{width:18px;height:18px;border-radius:5px;border:2px solid var(--border-2);display:flex;align-items:center;justify-content:center;transition:all .2s}
+.tc svg{width:10px;height:10px;opacity:0;transition:opacity .15s}
+.tg label:hover{border-color:var(--blue-bright);background:#fff;transform:translateY(-3px);box-shadow:var(--sh-sm)}
+.tg input:checked + label{border-color:var(--blue);background:linear-gradient(160deg,var(--s3),#eef2ff);color:var(--blue-2);transform:translateY(-3px);box-shadow:0 6px 24px rgba(37,99,235,.2)}
+.tg input:checked + label .ti{background:linear-gradient(135deg,var(--blue),var(--violet));transform:scale(1.1) rotate(-4deg)}
+.tg input:checked + label .tc{background:var(--blue);border-color:var(--blue)}
+.tg input:checked + label .tc svg{opacity:1;color:#fff}
+
+.divline{height:1px;background:linear-gradient(to right,transparent,var(--border),transparent);margin:18px 0}
+
+/* ── SUBMIT CARD ── */
+.sub-card{position:relative;overflow:hidden;border-radius:var(--r-xl);padding:52px 40px 44px;text-align:center;background:linear-gradient(150deg,#060e1c 0%,#0c1e3c 42%,#0f2455 100%);box-shadow:var(--sh-lg);border:1px solid rgba(255,255,255,.06);opacity:0;transform:translateY(26px);animation:rise .62s cubic-bezier(.22,1,.36,1) .48s forwards}
+.sub-card::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.04) 1px,transparent 1px);background-size:26px 26px;animation:mdrift 22s linear infinite}
+.so1{position:absolute;border-radius:50%;pointer-events:none;width:350px;height:350px;background:radial-gradient(circle,rgba(124,58,237,.22) 0%,transparent 65%);top:-120px;right:-80px;animation:opulse 7s ease-in-out infinite alternate}
+.so2{position:absolute;border-radius:50%;pointer-events:none;width:270px;height:270px;background:radial-gradient(circle,rgba(6,182,212,.18) 0%,transparent 65%);bottom:-80px;left:-60px;animation:opulse 9s ease-in-out infinite alternate-reverse}
+.sub-in{position:relative;z-index:1}
+
+
+.sub-in h3{font-family:'Bricolage Grotesque',sans-serif;font-size:1.9rem;font-weight:800;color:#fff;letter-spacing:-.025em;margin-bottom:10px}
+.sub-in > p{color:rgba(255,255,255,.48);font-size:13.5px;line-height:1.8;margin-bottom:28px;max-width:420px;margin-left:auto;margin-right:auto}
+.sub-in > p strong{color:#93c5fd}
+
+.btn-sub{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--blue-bright),var(--blue),var(--violet));background-size:200% 100%;color:#fff;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:17px 52px;border:none;border-radius:100px;cursor:pointer;position:relative;overflow:hidden;transition:transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s;box-shadow:0 8px 32px rgba(37,99,235,.55),0 2px 8px rgba(124,58,237,.3),inset 0 1px 0 rgba(255,255,255,.2);animation:bganim 3s linear infinite}
+@keyframes bganim{0%{background-position:0% center}100%{background-position:200% center}}
+.btn-sub::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(255,255,255,.15),transparent);pointer-events:none}
+.btn-sub:hover{transform:translateY(-4px) scale(1.03);box-shadow:0 16px 48px rgba(37,99,235,.6),0 4px 12px rgba(124,58,237,.4),inset 0 1px 0 rgba(255,255,255,.2)}
+.btn-sub:active{transform:translateY(-1px) scale(1.01)}
+.btn-sub svg{width:18px;height:18px;transition:transform .2s}
+.btn-sub:hover svg{transform:translateX(4px)}
+.btn-sub.loading{pointer-events:none;opacity:.88}
+.spinner{width:18px;height:18px;border:2.5px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:none}
+.btn-sub.loading .spinner{display:block}
+.btn-sub.loading .barrow{display:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.sub-meta{margin-top:22px;display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap}
+.sm-item{display:flex;align-items:center;gap:6px;color:rgba(255,255,255,.35);font-size:12px}
+.sm-item svg{width:13px;height:13px;color:#60a5fa}
+
+/* ── OVERLAY ── */
+.overlay{position:fixed;inset:0;z-index:999;background:rgba(5,13,26,.78);backdrop-filter:blur(14px);display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .35s}
+.overlay.show{opacity:1;pointer-events:all}
+.smodal{background:#fff;border-radius:var(--r-2xl);padding:52px 38px 44px;max-width:520px;width:100%;text-align:center;box-shadow:var(--sh-xl);border:1px solid var(--border);transform:scale(.86) translateY(28px);opacity:0;transition:transform .5s cubic-bezier(.34,1.56,.64,1) .05s,opacity .3s .05s;position:relative;overflow:hidden}
+.overlay.show .smodal{transform:scale(1) translateY(0);opacity:1}
+.smodal::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--blue),var(--violet),var(--cyan),var(--mint));background-size:300% 100%;animation:gflow 3s linear infinite}
+.confbox{position:absolute;top:0;left:0;right:0;pointer-events:none;height:100%;overflow:hidden}
+.cd{position:absolute;opacity:0;animation:cfall 2s ease-out forwards}
+@keyframes cfall{0%{opacity:1;transform:translateY(0) rotate(0deg) scale(1)}100%{opacity:0;transform:translateY(190px) rotate(540deg) scale(.3)}}
+.sring{width:90px;height:90px;border-radius:50%;background:linear-gradient(135deg,#ecfdf5,#d1fae5);border:2px solid rgba(16,185,129,.2);display:flex;align-items:center;justify-content:center;margin:0 auto 22px;box-shadow:0 8px 32px rgba(16,185,129,.25);animation:pop .55s cubic-bezier(.34,1.56,.64,1) .18s both}
+@keyframes pop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+.sring svg{width:44px;height:44px;color:var(--mint)}
+.smodal h3{font-family:'Bricolage Grotesque',sans-serif;font-size:1.8rem;font-weight:800;color:var(--ink);letter-spacing:-.02em;margin-bottom:8px}
+.smodal > p{color:var(--ink-3);font-size:14px;line-height:1.8;margin-bottom:20px}
+.shl{display:inline-block;background:linear-gradient(135deg,var(--s3),#eef2ff);color:var(--blue-2);font-weight:700;padding:2px 10px;border-radius:8px;border:1px solid var(--border-2)}
+
+/* summary table */
+.ssumm{background:var(--s2);border:1px solid var(--border);border-radius:var(--r-md);padding:14px 18px;text-align:left;margin-bottom:22px;font-size:13px}
+.sr{display:flex;gap:10px;padding:5px 0;border-bottom:1px solid var(--border);align-items:flex-start;line-height:1.5}
+.sr:last-child{border:none;padding-bottom:0}
+.sk{color:var(--ink-4);font-weight:600;min-width:92px;flex-shrink:0;font-size:12px;padding-top:1px}
+.sv{font-weight:500;color:var(--ink-2);word-break:break-word}
+
+.btn-done{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border:none;padding:14px 40px;border-radius:100px;font-family:'Sora',sans-serif;font-size:14px;font-weight:700;cursor:pointer;transition:all .2s;box-shadow:0 4px 16px rgba(15,23,42,.25)}
+.btn-done:hover{background:var(--ink-2);transform:translateY(-2px)}
+
+/* ── ERRORS ── */
+.field.herr input,.field.herr select,.field.herr textarea{border-color:var(--coral);box-shadow:0 0 0 4px rgba(244,63,94,.1)}
+.emsg{font-size:12px;color:var(--coral);font-weight:600;display:none;align-items:center;gap:5px}
+.field.herr .emsg{display:flex}
+
+/* ── RESPONSIVE ── */
+@media(max-width:640px){
+  .fg{grid-template-columns:1fr}
+  .card-body,.card-head{padding-left:18px;padding-right:18px}
+  .sub-card{padding:38px 20px 36px}
+  .tg{grid-template-columns:1fr 1fr}
+  header h1{font-size:2rem}
+  .prog-steps{display:none}
+  .smodal{padding:42px 22px 38px}
+  .val-banner{flex-direction:column;gap:12px}
 }
-.p-item{border-radius:14px;overflow:hidden;position:relative;background:var(--blush);}
-.p-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s;display:block;}
-.p-item:hover img{transform:scale(1.07);}
-.p-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,10,16,.72) 0%,transparent 55%);opacity:0;transition:opacity .35s;display:flex;align-items:flex-end;padding:14px;}
-.p-item:hover .p-overlay{opacity:1;}
-.p-label{color:#fff;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;}
-.p-item.r2{grid-row:span 2;}
-.p-item.c2{grid-column:span 2;}
-
-/* ── NAIL SWATCHES ── */
-.swatch-section{max-width:1100px;margin:0 auto;text-align:center;}
-.swatch-section h3{font-family:'Playfair Display',serif;font-size:22px;color:var(--dark);margin-bottom:6px;}
-.swatch-section p{font-size:13px;color:var(--muted);margin-bottom:26px;}
-.nail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(76px,1fr));gap:10px;}
-.swatch-item{display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;padding:4px;}
-.swatch-item:hover .swatch-nail{transform:scale(1.15) translateY(-4px);box-shadow:0 8px 18px rgba(0,0,0,.18);}
-.swatch-nail{width:44px;height:56px;border-radius:22px 22px 50% 50%;border:2px solid rgba(0,0,0,.09);transition:transform .22s,box-shadow .22s;flex-shrink:0;}
-.swatch-name{font-size:9.5px;color:var(--text);text-align:center;line-height:1.3;max-width:74px;font-weight:500;}
-
-/* ── AREAS ── */
-#areas{background:#fff;}
-.areas-inner{max-width:1060px;margin:0 auto;}
-.area-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px;}
-.area-tag{background:var(--blush);color:var(--deep-pink);padding:8px 17px;border-radius:50px;font-size:12px;font-weight:600;}
-
-/* ── FAQ ── */
-#faq{background:var(--cream);}
-.faq-inner{max-width:760px;margin:0 auto;}
-.faq-item{border-bottom:1px solid rgba(232,84,122,.12);padding:18px 0;}
-.faq-q{font-weight:600;font-size:15px;color:var(--dark);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;}
-.faq-q::after{content:'+';font-size:22px;color:var(--pink);flex-shrink:0;transition:transform .3s;}
-.faq-item.open .faq-q::after{transform:rotate(45deg);}
-.faq-a{font-size:14px;color:var(--muted);line-height:1.8;max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s;}
-.faq-item.open .faq-a{max-height:200px;padding-top:12px;}
-
-/* ── BOOKING FORM ── */
-#booking{background:#fff;}
-.booking-wrap{max-width:820px;margin:0 auto;background:#fff;border-radius:28px;box-shadow:0 30px 80px rgba(232,84,122,.1);overflow:hidden;display:flex;}
-.b-info{background:linear-gradient(160deg,var(--pink),var(--deep-pink));color:#fff;padding:44px 30px;width:280px;flex-shrink:0;}
-.b-info h3{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px;}
-.b-info>p{font-size:12.5px;opacity:.82;line-height:1.8;margin-bottom:26px;}
-.b-wa-btn{background:#fff;color:var(--wa-dark);border:none;padding:12px 18px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:8px;margin-bottom:24px;transition:all .3s;text-decoration:none;width:100%;justify-content:center;}
-.b-wa-btn:hover{background:#f0fdf4;transform:translateY(-1px);}
-.b-wa-btn svg{width:16px;height:16px;fill:var(--wa);}
-.b-divider{text-align:center;font-size:11px;opacity:.6;margin-bottom:20px;position:relative;}
-.b-divider::before,.b-divider::after{content:'';position:absolute;top:50%;width:35%;height:1px;background:rgba(255,255,255,.3);}
-.b-divider::before{left:0;}
-.b-divider::after{right:0;}
-.b-detail{display:flex;align-items:flex-start;gap:10px;margin-bottom:15px;}
-.b-detail .ico{font-size:14px;margin-top:3px;flex-shrink:0;}
-.b-detail div{font-size:12px;opacity:.88;line-height:1.65;}
-.b-detail strong{display:block;font-weight:600;font-size:12.5px;opacity:1;margin-bottom:2px;}
-.b-form{padding:42px 36px;flex:1;}
-.b-form h3{font-family:'Playfair Display',serif;font-size:22px;color:var(--dark);margin-bottom:22px;}
-.fg{margin-bottom:14px;}
-.fg label{display:block;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-bottom:6px;font-weight:500;}
-.fg input,.fg select,.fg textarea{width:100%;padding:12px 14px;border:1.5px solid rgba(232,84,122,.2);border-radius:10px;font-family:'Montserrat',sans-serif;font-size:14px;color:var(--text);background:var(--cream);outline:none;transition:border-color .3s,background .3s;}
-.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--pink);background:#fff;}
-.fg textarea{resize:vertical;min-height:70px;}
-.f-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-.sub-btn{width:100%;background:linear-gradient(135deg,var(--pink),var(--deep-pink));color:#fff;border:none;padding:14px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s;margin-top:6px;}
-.sub-btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(232,84,122,.4);}
-.success-msg{display:none;background:#f0fdf4;border:1.5px solid #86efac;color:#166534;border-radius:10px;padding:13px;margin-top:11px;font-size:13px;text-align:center;}
-
-/* ── FOOTER ── */
-footer{background:var(--dark);color:rgba(255,255,255,.7);padding:52px 48px 24px;text-align:center;}
-.f-logo{font-family:'Playfair Display',serif;font-size:28px;color:var(--pink);margin-bottom:8px;}
-.f-logo span{color:var(--gold);font-style:italic;}
-footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
-.f-links{display:flex;justify-content:center;gap:26px;margin-bottom:28px;flex-wrap:wrap;}
-.f-links a{color:rgba(255,255,255,.5);text-decoration:none;font-size:11px;letter-spacing:1px;transition:color .3s;}
-.f-links a:hover{color:var(--pink);}
-.f-wa-link{color:var(--wa)!important;font-weight:600;}
-.f-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:18px;font-size:11px;color:rgba(255,255,255,.3);}
-
-.toast{position:fixed;bottom:100px;right:28px;z-index:999;background:var(--dark);color:#fff;padding:12px 20px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.2);font-size:13.5px;display:none;align-items:center;gap:8px;}
-
-/* ── WA SVG inline ── */
-.wa-svg{display:inline-block;vertical-align:middle;}
-
-@media(max-width:900px){
-  nav{padding:12px 18px;}
-  .nav-links{display:none;}
-  section{padding:66px 20px;}
-  .hero{grid-template-columns:1fr;padding:106px 20px 46px;}
-  .hero-mosaic{grid-template-rows:150px 150px;}
-  #about{flex-direction:column;gap:32px;}
-  .about-right{grid-template-columns:1fr;}
-  .about-stats{gap:18px;}
-  .booking-wrap{flex-direction:column;}
-  .b-info{width:100%;}
-  .f-row{grid-template-columns:1fr;}
-  .b-form{padding:24px 18px;}
-  .photo-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto;}
-  .p-item.r2{grid-row:span 1;}
-  .trust-bar{padding:14px 20px;gap:20px;}
-  .wa-steps{flex-direction:column;gap:16px;align-items:flex-start;max-width:320px;margin-left:auto;margin-right:auto;}
-  .wa-banner{padding:48px 24px;}
-}
+@media(max-width:380px){.tg{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 
-<!-- ══ WHATSAPP SVG SYMBOL (reusable) ══ -->
-<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="waico" viewBox="0 0 24 24">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-  </symbol>
-</svg>
-
-<!-- NAV -->
-<nav aria-label="Main navigation">
-  <div class="nav-logo">Shree <span>Beauty</span></div>
-  <ul class="nav-links">
-    <li><a href="#services">Services</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#areas">Areas</a></li>
-    <li><a href="#faq">FAQ</a></li>
-    <li><a href="#booking">Book</a></li>
-  </ul>
-  <div class="nav-right">
-    <a class="nav-wa" href="https://wa.me/447700000000?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" aria-label="Book on WhatsApp">
-      <svg><use href="#waico"/></svg> WhatsApp
-    </a>
-    <button class="nav-book" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">Book Online</button>
-  </div>
-</nav>
-
-<!-- FLOATING WHATSAPP BUTTON -->
-<a class="wa-float" href="https://wa.me/447700000000?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" aria-label="Book appointment on WhatsApp">
-  <svg><use href="#waico"/></svg>
-  Book on WhatsApp
-</a>
-
-<!-- HERO — images: gel nails, waxing prep, head massage (unique to hero, NOT in gallery) -->
-<section class="hero" aria-label="Hero">
-  <div class="hero-content">
-    <div class="hero-tag">Ladies Beauty Parlour · Westcliff-on-Sea, Essex</div>
-    <h1>Westcliff's <em>Premier</em><br>Beauty Parlour</h1>
-    <p>Shree Beauty is Westcliff-on-Sea's top-rated ladies-only salon. Expert gel nails, eyebrow threading, waxing, eyelash extensions &amp; facials — serving Southend, Essex &amp; London commuter towns. <strong>Book instantly on WhatsApp — it's free!</strong></p>
-    <div class="hero-btns">
-      <a href="https://wa.me/447700000000?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" class="btn-wa">
-        <svg><use href="#waico"/></svg> Book on WhatsApp — Free
-      </a>
-      <a href="#services" class="btn-primary">View Services &amp; Prices</a>
-    </div>
-  </div>
-
-  <!-- HERO images — 3 unique, none repeated in gallery below -->
-  <div class="hero-mosaic" aria-hidden="true">
-    <!-- Hero img 1: luxury nail close-up (Unsplash 1604654894610) -->
-    <div class="h-img big">
-      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=700&q=80"
-           alt="Gel nail art treatment at Shree Beauty Westcliff-on-Sea" loading="eager">
-      <div class="h-badge"><div class="dot"></div><span>Gel Nail Art</span></div>
-    </div>
-    <!-- Hero img 2: spa/relax feet — NOT used in gallery -->
-    <div class="h-img">
-      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&q=80"
-           alt="Relaxing spa pedicure Essex" loading="eager">
-      <div class="h-badge"><div class="dot"></div><span>Pedicure Spa</span></div>
-    </div>
-    <!-- Hero img 3: woman beauty routine — NOT used in gallery -->
-    <div class="h-img">
-      <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=500&q=80"
-           alt="Beauty treatment Westcliff-on-Sea ladies salon" loading="eager">
-      <div class="h-badge"><div class="dot"></div><span>Beauty Ritual</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- TRUST BAR -->
-<div class="trust-bar" role="complementary">
-  <div class="trust-item"><span class="ic">⭐</span> 5-Star Google Rating</div>
-  <div class="trust-item"><span class="ic">💬</span> Book Free on WhatsApp</div>
-  <div class="trust-item"><span class="ic">🌸</span> Ladies Only Salon</div>
-  <div class="trust-item"><span class="ic">📍</span> Westcliff-on-Sea, Essex</div>
-  <div class="trust-item"><span class="ic">✅</span> 10+ Years Experience</div>
+<div class="bg-scene">
+  <div class="bb bb1"></div><div class="bb bb2"></div><div class="bb bb3"></div>
 </div>
 
-<!-- WHATSAPP BOOKING BANNER -->
-<div class="wa-banner" id="wa-booking" aria-labelledby="wa-title">
-  <h2 id="wa-title">Book Your Appointment on <em>WhatsApp</em> — It's Free!</h2>
-  <p>The simplest way to book at Shree Beauty. No apps to download, no accounts to create — just tap the button and send us a message. We'll confirm your slot within minutes.</p>
-  <div class="wa-steps">
-    <div class="wa-step"><div class="num">1</div><span>Tap the WhatsApp button below</span></div>
-    <div class="wa-step"><div class="num">2</div><span>Tell us your preferred service &amp; date</span></div>
-    <div class="wa-step"><div class="num">3</div><span>We confirm your appointment — done!</span></div>
+<!-- ═══ HEADER ═══ -->
+<header>
+  <div class="ho ho1"></div><div class="ho ho2"></div><div class="ho ho3"></div>
+  <div class="hdr">
+
+    <div class="h-eye">
+      <div class="h-dot"></div>
+      <span>Exclusive Demo Review — For Your Practice Only</span>
+    </div>
+
+    <h1>
+      Your Digital Presence<br/>
+      <span class="grad-text">Starts With This Review</span>
+    </h1>
+
+    <!-- Social proof -->
+    <div class="social-proof" style="margin-bottom:28px;">
+      <div class="sp-faces">
+        <div class="sp-face">👨‍⚕️</div>
+        <div class="sp-face">👩‍⚕️</div>
+        <div class="sp-face">🧑‍⚕️</div>
+        <div class="sp-face">👨‍⚕️</div>
+      </div>
+      <div>
+        <div class="sp-stars">★★★★★</div>
+        <div class="sp-text"><strong>7 doctors</strong> reviewed their demo this month</div>
+      </div>
+    </div>
+
+    <div class="trust-strip">
+      <div class="tp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>100% Confidential</div>
+      <div class="tp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>~2 min to fill</div>
+      <div class="tp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 9.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8 9a16 16 0 0 0 7 7z"/></svg>Reply in 24 hrs</div>
+      <div class="tp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>No obligation</div>
+    </div>
+
   </div>
-  <a class="btn-wa-big" href="https://wa.me/447700000000?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" aria-label="Open WhatsApp to book appointment">
-    <svg><use href="#waico"/></svg>
-    Chat &amp; Book on WhatsApp
-  </a>
-  <p class="wa-note">Completely free · No account needed · Instant reply during opening hours</p>
+  <div class="h-wave"><svg viewBox="0 0 1440 58" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,58 C240,10 480,0 720,22 C960,44 1200,8 1440,58 L1440,58 L0,58 Z" fill="#f0f4ff"/></svg></div>
+</header>
+
+<!-- ═══ PROGRESS ═══ -->
+<div class="prog-bar">
+  <div class="prog-in">
+    <div class="prog-steps" id="progSteps"></div>
+    <div class="prog-track"><div class="prog-fill" id="progFill"></div></div>
+    <div class="prog-lbl" id="progLbl">0% done</div>
+  </div>
 </div>
 
-<!-- SERVICES -->
-<section id="services" aria-labelledby="svc-title">
-  <div class="svc-head">
-    <div class="section-tag">Price List</div>
-    <h2 class="section-title" id="svc-title">Our <em>Services</em></h2>
-    <p style="font-size:14px;color:var(--muted);font-weight:300;max-width:520px;margin:0 auto;">Professional beauty treatments at affordable prices in Westcliff-on-Sea. Tap <em style="color:var(--wa-dark)">Book on WhatsApp</em> on any card to message us instantly.</p>
-  </div>
-  <div class="services-grid">
+<!-- ═══ MAIN ═══ -->
+<main>
 
-    <div class="service-card">
-      <div class="service-icon">💅</div><h3>Gel Manicure</h3>
-      <ul class="service-items">
-        <li><span>Shape &amp; Polish</span><span class="price">£20</span></li>
-        <li><span>Manicure</span><span class="price">£24</span></li>
-        <li><span>Gel Colour</span><span class="price">£10</span></li>
-      </ul>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20a%20Gel%20Manicure%20%F0%9F%92%85" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+  <!-- VALUE BANNER -->
+  <div class="val-banner">
+    <div class="val-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
     </div>
-
-    <div class="service-card">
-      <div class="service-icon">🦶</div><h3>Gel Pedicure</h3>
-      <ul class="service-items">
-        <li><span>Shape &amp; Gel Polish</span><span class="price">£26</span></li>
-        <li><span>Gel Pedicure</span><span class="price">£30</span></li>
-        <li><span>Gel Colour</span><span class="price">£15</span></li>
-      </ul>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20a%20Gel%20Pedicure%20%F0%9F%A6%B6" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">✋</div><h3>Manicure</h3>
-      <ul class="service-items">
-        <li><span>Shape &amp; Polish</span><span class="price">£10</span></li>
-        <li><span>Shape &amp; Cuticle</span><span class="price">£10</span></li>
-        <li><span>Polish Only</span><span class="price">£7</span></li>
-        <li><span>Shree Manicure</span><span class="price">£20</span></li>
-      </ul>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20a%20Manicure%20%F0%9F%92%85" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🛁</div><h3>Pedicure</h3>
-      <ul class="service-items">
-        <li><span>Shape &amp; Polish</span><span class="price">£15</span></li>
-        <li><span>Shape &amp; Cuticle</span><span class="price">£20</span></li>
-        <li><span>Polish Only</span><span class="price">£10</span></li>
-        <li><span>Shree Pedicure</span><span class="price">£28</span></li>
-      </ul>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20a%20Pedicure%20%F0%9F%9B%81" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">👁️</div><h3>Threading &amp; Tinting</h3>
-      <ul class="service-items">
-        <li><span>Eyebrow</span><span class="price">£7</span></li>
-        <li><span>Side of Face</span><span class="price">£5</span></li>
-        <li><span>Chin</span><span class="price">£3</span></li>
-        <li><span>Full Face</span><span class="price">£12</span></li>
-        <li><span>Eyebrow Tint</span><span class="price">£6</span></li>
-        <li><span>Eyelash Tint</span><span class="price">£7</span></li>
-        <li><span>Brow &amp; Lash Tint</span><span class="price">£12</span></li>
-      </ul>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20Threading%20%F0%9F%91%81" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🌿</div><h3>Waxing</h3>
-      <ul class="service-items">
-        <li><span>Half Leg</span><span class="price">£15</span></li>
-        <li><span>Full Leg</span><span class="price">£20</span></li>
-        <li><span>Half Arm</span><span class="price">£10</span></li>
-        <li><span>Full Arm</span><span class="price">£15</span></li>
-        <li><span>Bikini Line</span><span class="price">£10</span></li>
-        <li><span>Brazilian</span><span class="price">£25</span></li>
-        <li><span>Hollywood</span><span class="price">£30</span></li>
-        <li><span>Full Body</span><span class="price">£60</span></li>
-      </ul>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20a%20Waxing%20treatment%20%F0%9F%8C%BF" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">✨</div><h3>Eyelash Extensions</h3>
-      <ul class="service-items">
-        <li><span>Lash Removal</span><span class="price">£6</span></li>
-        <li><span>Semi Permanent</span><span class="price">£40</span></li>
-        <li><span>Temporary Lashes</span><span class="price">£30</span></li>
-        <li><span>Eyelash Perming</span><span class="price">£30</span></li>
-        <li><span>Perming &amp; Tint</span><span class="price">£35</span></li>
-      </ul>
-      <small style="font-size:11px;color:var(--pink);display:block;margin-top:8px;">⚠️ Patch test required 24 hrs before</small>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20Eyelash%20Extensions%20%E2%9C%A8%20(I%20understand%20a%20patch%20test%20is%20needed%2024hrs%20before)" target="_blank" rel="noopener" style="margin-top:10px;">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon">🪷</div><h3>Specialist Treatments</h3>
-      <ul class="service-items">
-        <li><span>Facial</span><span class="price">£40</span></li>
-        <li><span>Indian Head Massage (30 min)</span><span class="price">£20</span></li>
-      </ul>
-      <small style="font-size:11px;color:var(--muted);display:block;margin-top:8px;">Ladies only</small>
-      <a class="book-wa" href="https://wa.me/447700000000?text=Hi!%20I%27d%20like%20to%20book%20a%20Facial%20%F0%9F%AA%B7" target="_blank" rel="noopener" style="margin-top:10px;">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
-    </div>
-
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-  <div class="about-left">
-    <div class="section-tag" style="color:#c9a96e">Who We Are</div>
-    <h2 class="section-title">Westcliff's <em>Favourite</em> Beauty Salon</h2>
-    <p>Shree Beauty has been Westcliff-on-Sea's most trusted ladies-only beauty parlour for over a decade. We combine expert technique with premium products to deliver stunning, lasting results every visit.</p>
-    <p>Conveniently located in Westcliff-on-Sea — easily reachable from Southend, Leigh-on-Sea, Rayleigh, Basildon and across Essex. We're your go-to destination for professional beauty treatments near London.</p>
-    <div class="about-stats">
-      <div class="stat"><h2>10+</h2><p>Years in Essex</p></div>
-      <div class="stat"><h2>5★</h2><p>Google Rating</p></div>
-      <div class="stat"><h2>500+</h2><p>Happy Clients</p></div>
-    </div>
-  </div>
-  <div class="about-right">
-    <div class="feature-box"><div class="icon">🌸</div><h4>Ladies Only</h4><p>Safe, private &amp; relaxing — exclusively for women.</p></div>
-    <div class="feature-box"><div class="icon">💬</div><h4>WhatsApp Booking</h4><p>Book instantly on WhatsApp — free, fast &amp; easy.</p></div>
-    <div class="feature-box"><div class="icon">🏆</div><h4>Expert Team</h4><p>Fully trained professionals with 10+ years experience.</p></div>
-    <div class="feature-box"><div class="icon">📍</div><h4>Easy to Find</h4><p>Westcliff-on-Sea, Essex — near Southend station.</p></div>
-  </div>
-</section>
-
-<!-- GALLERY — 12 unique images, zero overlap with hero -->
-<section id="gallery" aria-labelledby="gal-title">
-  <div class="gal-head">
-    <div class="section-tag">Our Work</div>
-    <h2 class="section-title" id="gal-title">Beauty <em>Gallery</em></h2>
-    <p style="font-size:14px;color:var(--muted);font-weight:300;max-width:480px;margin:0 auto 34px;">Real results from our expert team in Westcliff-on-Sea, Essex.</p>
-  </div>
-
-  <div class="photo-grid">
-    <!-- Row 1: tall left + 3 singles -->
-    <div class="p-item r2" style="grid-column:1;grid-row:1/3;">
-      <!-- Eyelash extensions: close-up eye, lashes -->
-      <img src="https://images.unsplash.com/photo-1487412947147-5cebf100d7fb?w=700&q=80"
-           data-fallback="https://picsum.photos/seed/lash/700/900"
-           alt="Eyelash extensions treatment Southend-on-Sea Essex" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Eyelash Extensions</span></div>
-    </div>
-    <div class="p-item" style="grid-column:2;grid-row:1;">
-      <!-- Makeup: professional beauty makeup -->
-      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/makeup/600/400"
-           alt="Professional makeup application Westcliff Essex" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Makeup</span></div>
-    </div>
-    <div class="p-item" style="grid-column:3;grid-row:1;">
-      <!-- Eyebrow threading: thread on eyebrow -->
-      <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/brows/600/400"
-           alt="Eyebrow threading Southend-on-Sea Essex" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Eyebrow Threading</span></div>
-    </div>
-    <div class="p-item" style="grid-column:4;grid-row:1;">
-      <!-- Nail art: coloured nails on woman's hand -->
-      <img src="https://images.unsplash.com/photo-1604902396830-aca29e19b067?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/nailart/600/400"
-           alt="Nail art design Essex salon" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Nail Art</span></div>
-    </div>
-    <!-- Row 2: wide facial + waxing -->
-    <div class="p-item c2" style="grid-column:2/4;grid-row:2;">
-      <!-- Facial: woman with face towel, skin treatment -->
-      <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&q=80"
-           data-fallback="https://picsum.photos/seed/facial/900/400"
-           alt="Luxury facial treatment Westcliff-on-Sea Essex" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Luxury Facial</span></div>
-    </div>
-    <div class="p-item" style="grid-column:4;grid-row:2;">
-      <!-- Waxing: wax pot and strips, beauty salon -->
-      <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/wax/600/400"
-           alt="Waxing treatment ladies salon Essex" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Waxing</span></div>
-    </div>
-    <!-- Row 3: 4 singles -->
-    <div class="p-item" style="grid-column:1;grid-row:3;">
-      <!-- Pedicure: feet being painted at nail bar -->
-      <img src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/pedi/600/400"
-           alt="Pedicure treatment Westcliff-on-Sea salon" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Pedicure</span></div>
-    </div>
-    <div class="p-item" style="grid-column:2;grid-row:3;">
-      <!-- Gel colours: bright gel nail polishes on nails -->
-      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/gelcolor/600/400"
-           alt="Gel colour nail selection Essex beauty salon" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Gel Colours</span></div>
-    </div>
-    <div class="p-item" style="grid-column:3;grid-row:3;">
-      <!-- Lash tinting: close-up eye with dark lash treatment -->
-      <img src="https://images.unsplash.com/photo-1583001809873-a128495da465?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/lashtint/600/400"
-           alt="Eyelash tinting treatment Southend Essex" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Lash Tinting</span></div>
-    </div>
-    <div class="p-item" style="grid-column:4;grid-row:3;">
-      <!-- Skin care: woman getting skin treatment -->
-      <img src="https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f?w=600&q=80"
-           data-fallback="https://picsum.photos/seed/skin/600/400"
-           alt="Skin care beauty treatment Essex" loading="lazy">
-      <div class="p-overlay"><span class="p-label">Skin Care</span></div>
+    <div class="val-body">
+      <h3>Your practice deserves to be found first — not forgotten.</h3>
+      <p>Patients today search Google before calling any doctor. Without a strong digital presence, you're invisible to <strong>73% of new patients</strong> who search online. This demo was built specifically for your practice. Your feedback takes 2 minutes and shapes your final product — at no obligation.</p>
     </div>
   </div>
 
-  <!-- NAIL SWATCHES — names always visible -->
-  <div class="swatch-section">
-    <h3>Choose Your Nail <em style="color:var(--pink);font-style:italic;">Colour</em></h3>
-    <p>40+ gel polish shades available — name shown below each swatch</p>
-    <div class="nail-grid" id="nailGrid"></div>
-  </div>
-</section>
-
-<!-- AREAS SERVED -->
-<section id="areas">
-  <div class="areas-inner">
-    <div class="section-tag">Coverage</div>
-    <h2 class="section-title">Areas We <em>Serve</em></h2>
-    <p style="font-size:14px;color:var(--muted);font-weight:300;line-height:1.8;max-width:620px;">Located in Westcliff-on-Sea, Essex — minutes from Southend Central and a short drive from across the region. We welcome clients from all nearby areas including London commuter towns.</p>
-    <div class="area-tags">
-      <span class="area-tag">Westcliff-on-Sea</span>
-      <span class="area-tag">Southend-on-Sea</span>
-      <span class="area-tag">Leigh-on-Sea</span>
-      <span class="area-tag">Rayleigh</span>
-      <span class="area-tag">Basildon</span>
-      <span class="area-tag">Benfleet</span>
-      <span class="area-tag">Hadleigh</span>
-      <span class="area-tag">Canvey Island</span>
-      <span class="area-tag">Hockley</span>
-      <span class="area-tag">Rochford</span>
-      <span class="area-tag">Chelmsford</span>
-      <span class="area-tag">Essex</span>
-      <span class="area-tag">East London</span>
+  <!-- CARD 1 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="cnum">01</div>
+      <div class="cht"><h2>Basic Information</h2><p>A little about you and your practice</p></div>
+      <span class="stag">STEP 1 / 4</span>
     </div>
-    <div style="margin-top:34px;border-radius:16px;overflow:hidden;border:1px solid rgba(232,84,122,.15);">
-      <iframe title="Shree Beauty location – 482 Fairfax Dr, Westcliff-on-Sea SS0 9RN"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.2!2d0.6969!3d51.5394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMyJzIxLjgiTiAwwrA0MScwOC44Ikk!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
-        width="100%" height="280" style="border:0;display:block;" allowfullscreen="" loading="lazy">
-      </iframe>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section id="faq">
-  <div class="faq-inner">
-    <div class="section-tag">FAQs</div>
-    <h2 class="section-title">Frequently Asked <em>Questions</em></h2>
-    <p style="font-size:14px;color:var(--muted);font-weight:300;margin-bottom:30px;">Everything you need to know about visiting Shree Beauty in Westcliff-on-Sea.</p>
-
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">Can I book an appointment on WhatsApp for free?</div>
-      <div class="faq-a">Yes! Simply tap any "Book on WhatsApp" button on this page — or the floating green button — and send us a message. It's completely free, requires no app other than WhatsApp, and we'll confirm your booking within minutes during opening hours.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">Where is Shree Beauty located?</div>
-      <div class="faq-a">We are at 482 Fairfax Dr, Westcliff-on-Sea, Southend-on-Sea, Essex, SS0 9RN — easily accessible from Southend, Leigh-on-Sea and across Essex.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">Is Shree Beauty a ladies-only salon?</div>
-      <div class="faq-a">Yes! Shree Beauty is a ladies-only beauty parlour, providing a comfortable, private and relaxing environment exclusively for women.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">What beauty services does Shree Beauty offer?</div>
-      <div class="faq-a">We offer gel manicures, gel pedicures, manicures, pedicures, eyebrow threading, waxing (including Brazilian and Hollywood wax), eyelash extensions, eyelash perming &amp; tinting, facials and Indian head massage.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">Do I need a patch test before eyelash treatments?</div>
-      <div class="faq-a">Yes — a patch test is required at least 24 hours before any eyelash extension, perming or tinting treatment. Message us on WhatsApp to arrange your patch test when booking.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">What are your opening hours?</div>
-      <div class="faq-a">We are open Monday to Saturday 9:00 am – 7:00 pm, and Sunday 10:00 am – 5:00 pm.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">Is Shree Beauty near Southend-on-Sea?</div>
-      <div class="faq-a">Yes — Shree Beauty is in Westcliff-on-Sea, which is adjacent to Southend-on-Sea. We're a short drive or bus ride from Southend High Street and Southend Central station.</div>
-    </div>
-  </div>
-</section>
-
-<!-- BOOKING FORM (alternative to WhatsApp) -->
-<section id="booking">
-  <div style="text-align:center;margin-bottom:42px;">
-    <div class="section-tag" style="justify-content:center;"><span style="display:inline-block;width:28px;height:1px;background:var(--gold);margin-right:12px;"></span>Book Online</div>
-    <h2 class="section-title">Book Your <em>Treatment</em></h2>
-    <p style="font-size:14px;color:var(--muted);font-weight:300;max-width:440px;margin:0 auto;">Prefer WhatsApp? <a href="https://wa.me/447700000000?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" style="color:var(--wa-dark);font-weight:600;">Tap here to book instantly →</a></p>
-  </div>
-
-  <div class="booking-wrap">
-    <div class="b-info">
-      <h3>Shree Beauty</h3>
-      <p>Ladies-only beauty parlour, Westcliff-on-Sea, Essex.</p>
-
-      <!-- WhatsApp CTA inside panel -->
-      <a class="b-wa-btn" href="https://wa.me/447700000000?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener">
-        <svg style="fill:var(--wa);width:17px;height:17px;"><use href="#waico"/></svg>
-        Book via WhatsApp Instead
-      </a>
-      <div class="b-divider">or fill in the form</div>
-
-      <div class="b-detail">
-        <div class="ico">📍</div>
-        <div><strong>Address</strong>482 Fairfax Dr, Westcliff-on-Sea<br>Southend-on-Sea SS0 9RN</div>
-      </div>
-      <div class="b-detail">
-        <div class="ico">🕐</div>
-        <div><strong>Hours</strong>Mon–Sat: 9am – 7pm<br>Sunday: 10am – 5pm</div>
-      </div>
-      <div class="b-detail">
-        <div class="ico">⚠️</div>
-        <div><strong>Lash Treatments</strong>Patch test required 24 hrs before</div>
-      </div>
-    </div>
-
-    <div class="b-form">
-      <h3>Request an Appointment</h3>
-
+    <div class="card-body">
       <div class="fg">
-        <label for="fullname">Full Name</label>
-        <input type="text" id="fullname" placeholder="Your full name" required autocomplete="name">
-      </div>
-      <div class="fg">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" placeholder="+44 0000 000000" required autocomplete="tel">
-      </div>
-      <div class="fg">
-        <label for="service">Service</label>
-        <select id="service" required>
-          <option value="">Select a service...</option>
-          <optgroup label="Gel Manicure">
-            <option>Gel Manicure – Shape &amp; Polish (£20)</option>
-            <option>Gel Manicure – Manicure (£24)</option>
-            <option>Gel Manicure – Gel Colour (£10)</option>
-          </optgroup>
-          <optgroup label="Gel Pedicure">
-            <option>Gel Pedicure – Shape &amp; Gel Polish (£26)</option>
-            <option>Gel Pedicure – Full Pedicure (£30)</option>
-          </optgroup>
-          <optgroup label="Manicure">
-            <option>Manicure – Shape &amp; Polish (£10)</option>
-            <option>Manicure – Polish Only (£7)</option>
-            <option>Shree Manicure (£20)</option>
-          </optgroup>
-          <optgroup label="Pedicure">
-            <option>Pedicure – Shape &amp; Polish (£15)</option>
-            <option>Pedicure – Shape &amp; Cuticle (£20)</option>
-            <option>Shree Pedicure (£28)</option>
-          </optgroup>
-          <optgroup label="Threading &amp; Tinting">
-            <option>Eyebrow Threading (£7)</option>
-            <option>Full Face Threading (£12)</option>
-            <option>Eyebrow Tint (£6)</option>
-            <option>Eyelash Tint (£7)</option>
-            <option>Eyebrow &amp; Lash Tint (£12)</option>
-          </optgroup>
-          <optgroup label="Waxing">
-            <option>Half Leg Wax (£15)</option>
-            <option>Full Leg Wax (£20)</option>
-            <option>Brazilian Wax (£25)</option>
-            <option>Hollywood Wax (£30)</option>
-            <option>Full Body Wax (£60)</option>
-          </optgroup>
-          <optgroup label="Eyelash Extensions">
-            <option>Semi Permanent Lashes (£40)</option>
-            <option>Temporary Lashes (£30)</option>
-            <option>Eyelash Perming (£30)</option>
-            <option>Eyelash Perming &amp; Tint (£35)</option>
-          </optgroup>
-          <optgroup label="Specialist">
-            <option>Facial (£40)</option>
-            <option>Indian Head Massage – 30 min (£20)</option>
-          </optgroup>
-        </select>
-      </div>
-      <div class="f-row">
-        <div class="fg">
-          <label for="date">Preferred Date</label>
-          <input type="date" id="date" required>
+        <div class="field" id="f-clinic">
+          <label class="fl">Practice / Business Name <span class="req">*</span></label>
+          <div class="iw">
+            <span class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+            <input type="text" id="clinicName" placeholder="e.g. Sharma Multispeciality" data-track/>
+          </div>
+          <span class="emsg">⚠ Required field</span>
         </div>
-        <div class="fg">
-          <label for="time">Preferred Time</label>
-          <select id="time" required>
-            <option value="">Select time...</option>
-            <option>9:00 AM</option><option>9:30 AM</option>
-            <option>10:00 AM</option><option>10:30 AM</option>
-            <option>11:00 AM</option><option>11:30 AM</option>
-            <option>12:00 PM</option><option>12:30 PM</option>
-            <option>1:00 PM</option><option>1:30 PM</option>
-            <option>2:00 PM</option><option>2:30 PM</option>
-            <option>3:00 PM</option><option>3:30 PM</option>
-            <option>4:00 PM</option><option>4:30 PM</option>
-            <option>5:00 PM</option><option>5:30 PM</option>
-            <option>6:00 PM</option>
-          </select>
+        <div class="field" id="f-doctor">
+          <label class="fl">Doctor / Your Name <span class="req">*</span></label>
+          <div class="iw">
+            <span class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span>
+            <input type="text" id="doctorName" placeholder="e.g. Dr. Rahul Sharma" data-track/>
+          </div>
+          <span class="emsg">⚠ Required field</span>
+        </div>
+        <div class="field full" id="f-contact">
+          <label class="fl">WhatsApp / Contact Number <span class="req">*</span></label>
+          <div class="iw">
+            <span class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 9.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8 9a16 16 0 0 0 7 7z"/></svg></span>
+            <input type="tel" id="contactNumber" placeholder="+91 98765 43210" data-track/>
+          </div>
+          <span class="emsg">⚠ Enter a valid number</span>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- CARD 2 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="cnum">02</div>
+      <div class="cht"><h2>Design &amp; Content Review</h2><p>Rate the demo built specifically for your practice</p></div>
+      <span class="stag">STEP 2 / 4</span>
+    </div>
+    <div class="card-body">
       <div class="fg">
-        <label for="notes">Additional Notes</label>
-        <textarea id="notes" placeholder="Any special requests, allergies, or questions..."></textarea>
-      </div>
-      <button class="sub-btn" onclick="submitBooking()">Confirm Appointment ✨</button>
-      <div class="success-msg" id="successMsg">
-        🌸 Thank you! We'll confirm your appointment shortly. You can also <a href="https://wa.me/447700000000" style="color:var(--wa-dark);font-weight:600;">message us on WhatsApp</a> for faster confirmation.
+        <div class="field full">
+          <label class="fl">Overall Rating <span class="req">*</span></label>
+          <div class="star-row">
+            <input type="radio" name="rating" id="s5" value="5" data-track/><label for="s5">★</label>
+            <input type="radio" name="rating" id="s4" value="4" data-track/><label for="s4">★</label>
+            <input type="radio" name="rating" id="s3" value="3" data-track/><label for="s3">★</label>
+            <input type="radio" name="rating" id="s2" value="2" data-track/><label for="s2">★</label>
+            <input type="radio" name="rating" id="s1" value="1" data-track/><label for="s1">★</label>
+          </div>
+          <div class="star-pill" id="starPill"></div>
+        </div>
+        <div class="field full" id="f-design">
+          <label class="fl">How do you find the design? <span class="req">*</span></label>
+          <div class="sw">
+            <span class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></span>
+            <select id="designOpinion" data-track>
+              <option value="" disabled selected>— Choose an option —</option>
+              <option value="Excellent – exactly what I wanted">Excellent – exactly what I wanted ✨</option>
+              <option value="Very good – minor tweaks needed">Very good – minor tweaks needed</option>
+              <option value="Good – needs some changes">Good – needs some changes</option>
+              <option value="Average – needs significant work">Average – needs significant work</option>
+              <option value="Needs a completely different direction">Needs a completely different direction</option>
+            </select>
+            <span class="sa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </div>
+          <span class="emsg">⚠ Please select an option</span>
+        </div>
+        <div class="field full">
+          <label class="fl">Is the content clear and relevant to your practice? <span class="req">*</span></label>
+          <div class="og">
+            <input type="radio" name="contentClear" id="cc-yes" value="Yes" data-track/>
+            <label for="cc-yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Yes, very clear</label>
+            <input type="radio" name="contentClear" id="cc-somewhat" value="Somewhat" data-track/>
+            <label for="cc-somewhat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>Somewhat clear</label>
+            <input type="radio" name="contentClear" id="cc-no" value="No" data-track/>
+            <label for="cc-no"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Not clear</label>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="f-logo">Shree <span>Beauty</span></div>
-  <p>482 Fairfax Dr, Westcliff-on-Sea, Southend-on-Sea, Essex SS0 9RN<br>
-  <small style="opacity:.5;">Ladies-only beauty parlour serving Southend, Leigh-on-Sea, Rayleigh, Basildon &amp; across Essex</small></p>
-  <div class="f-links">
-    <a href="#services">Services &amp; Prices</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#areas">Areas</a>
-    <a href="#faq">FAQ</a>
-    <a href="#booking">Book Online</a>
-    <a class="f-wa-link" href="https://wa.me/447700000000?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener">📱 Book on WhatsApp</a>
+  <!-- CARD 3 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="cnum">03</div>
+      <div class="cht"><h2>Your Suggestions</h2><p>What would make this perfect for your practice?</p></div>
+      <span class="stag">STEP 3 / 4</span>
+    </div>
+    <div class="card-body">
+      <div class="field">
+        <label class="fl">What changes would you like? <span class="hint">(optional)</span></label>
+        <textarea id="changes" placeholder="e.g. Add my team's photos, different colour scheme, include WhatsApp button, list my specialities, update services section…" data-track></textarea>
+      </div>
+    </div>
   </div>
-  <div class="f-bottom">
-    © 2024 Shree Beauty, Westcliff-on-Sea, Essex. All rights reserved.<br>
-    <span style="margin-top:4px;display:block;">Beauty Parlour · Nail Salon · Threading · Waxing · Eyelash Extensions · Facials · WhatsApp Booking · Essex</span>
-  </div>
-</footer>
 
-<div class="toast" id="toast" role="status"></div>
+  <!-- CARD 4 -->
+  <div class="card">
+    <div class="card-head">
+      <div class="cnum">04</div>
+      <div class="cht"><h2>Next Steps</h2><p>Tell us how to best serve you</p></div>
+      <span class="stag">STEP 4 / 4</span>
+    </div>
+    <div class="card-body">
+      <div class="fg">
+
+        <div class="field full">
+          <label class="fl">Would you like to proceed with your digital presence? <span class="req">*</span></label>
+          <div class="og">
+            <div class="og-g">
+              <input type="radio" name="proceed" id="p-yes" value="Yes – Let's proceed!" data-track/>
+              <label for="p-yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Yes — let's go! 🚀</label>
+            </div>
+            <div class="og-a">
+              <input type="radio" name="proceed" id="p-changes" value="Need changes first" data-track/>
+              <label for="p-changes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>Need changes first</label>
+            </div>
+            <input type="radio" name="proceed" id="p-not-now" value="Not now" data-track/>
+            <label for="p-not-now"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/></svg>Not right now</label>
+          </div>
+        </div>
+
+        <div class="divline full"></div>
+
+        <div class="field full">
+          <label class="fl">Which services interest you? <span class="hint">(select all that apply)</span></label>
+          <div class="tg">
+            <input type="checkbox" id="svc-web" value="Website" data-track/>
+            <label for="svc-web"><span class="ti">🌐</span><span class="tc"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="1.5,6 5,9.5 10.5,2.5"/></svg></span>Website</label>
+            <input type="checkbox" id="svc-ig" value="Instagram" data-track/>
+            <label for="svc-ig"><span class="ti">📸</span><span class="tc"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="1.5,6 5,9.5 10.5,2.5"/></svg></span>Instagram</label>
+            <input type="checkbox" id="svc-fb" value="Facebook" data-track/>
+            <label for="svc-fb"><span class="ti">👍</span><span class="tc"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="1.5,6 5,9.5 10.5,2.5"/></svg></span>Facebook</label>
+            <input type="checkbox" id="svc-pkg" value="Full Package" data-track/>
+            <label for="svc-pkg"><span class="ti">⭐</span><span class="tc"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="1.5,6 5,9.5 10.5,2.5"/></svg></span>Full Package</label>
+          </div>
+        </div>
+
+        <div class="divline full"></div>
+
+        <div class="field full">
+          <label class="fl">When would you like to start? <span class="req">*</span></label>
+          <div class="og">
+            <input type="radio" name="startTime" id="st-now" value="Immediately" data-track/>
+            <label for="st-now"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>Immediately</label>
+            <input type="radio" name="startTime" id="st-week" value="Within 1 week" data-track/>
+            <label for="st-week"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Within 1 week</label>
+            <input type="radio" name="startTime" id="st-later" value="Later" data-track/>
+            <label for="st-later"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Later</label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- SUBMIT -->
+  <div class="sub-card">
+    <div class="so1"></div><div class="so2"></div>
+    <div class="sub-in">
+
+      <h3>Submit &amp; Let's Build It!</h3>
+      <p>Your response goes directly to our team. We'll reach out within <strong>24 hours</strong> with your customised plan — completely free, zero pressure.</p>
+
+      <button class="btn-sub" id="submitBtn" type="button">
+        <div class="spinner"></div>
+        <svg class="barrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        Submit My Feedback
+      </button>
+
+      <div class="sub-meta">
+        <span class="sm-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Encrypted &amp; secure</span>
+        <span class="sm-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Never shared</span>
+        <span class="sm-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Instant confirmation</span>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- ═══ SUCCESS OVERLAY ═══ -->
+<div class="overlay" id="overlay">
+  <div class="smodal">
+    <div class="confbox" id="confBox"></div>
+    <div class="sring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+    <h3>You're All Set! 🎉</h3>
+    <p>Feedback received. Our team will contact you within <span class="shl">24 hours</span> with your personalised digital growth plan.</p>
+    <div class="ssumm" id="ssumm"></div>
+    <button class="btn-done" id="btnDone">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:15px;height:15px"><polyline points="20 6 9 17 4 12"/></svg>
+      Done
+    </button>
+  </div>
+</div>
 
 <script>
-document.getElementById('date').setAttribute('min', new Date().toISOString().split('T')[0]);
+/* ─── CONFIG: replace with your Apps Script URL ─── */
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzeIfk81v_b8a8JUHnoOg3Kx7vYW4QvItYf_3-dHQVvcSjIK7e7hRkNkpHt0gbqzbQ/exec";
 
-// Auto-fallback: if any gallery image fails to load, swap to its data-fallback URL
-document.querySelectorAll('.p-item img[data-fallback]').forEach(img => {
-  img.addEventListener('error', function() {
-    if (this.src !== this.dataset.fallback) {
-      this.src = this.dataset.fallback;
-    }
+/* ─── Star labels ─── */
+const SL={1:"😔 Very Poor",2:"😐 Below Average",3:"🙂 Average",4:"😊 Good",5:"🤩 Excellent!"};
+document.querySelectorAll('input[name="rating"]').forEach(el=>{
+  el.addEventListener('change',()=>{
+    const p=document.getElementById('starPill');
+    p.textContent=SL[el.value]||'';p.classList.add('show');up();
   });
 });
 
-// Nail swatches — names permanently visible beneath each nail
-const colours = [
-  {n:'MIAMI',h:'#FF4D6D'},{n:'Molassa',h:'#7A2E2E'},{n:'Big Apple',h:'#CC2222'},
-  {n:'Cayman',h:'#E84646'},{n:'Seafood',h:'#FF6B35'},{n:'Cocoa',h:'#C85A2A'},
-  {n:'Aloha',h:'#FF5733'},{n:'Tempura',h:'#FF7043'},{n:'Live. Love.',h:'#FF8A80'},
-  {n:'Kiss Me',h:'#F06292'},{n:'Strawberry',h:'#E91E63'},{n:'Toying',h:'#F48FB1'},
-  {n:'Shorts',h:'#FCE4EC'},{n:'Arigatо',h:'#FFB3C1'},{n:'Spare Me',h:'#FF80AB'},
-  {n:'I Manicure',h:'#EC407A'},{n:'All Dreams',h:'#CE93D8'},{n:'Purple Haze',h:'#9C27B0'},
-  {n:'Lavender',h:'#B39DDB'},{n:'Rice Rice',h:'#EF9A9A'},{n:'Getting Mad',h:'#EF5350'},
-  {n:'Anothers',h:'#FFAB91'},{n:'Princesses',h:'#FFCCBC'},{n:'Bubble',h:'#FFE0B2'},
-  {n:'Passion',h:'#FF6090'},{n:'Cozu',h:'#F8BBD0'},{n:'Worth A',h:'#FFDDB7'},
-  {n:'Coconuts',h:'#D7CCC8'},{n:'Bossa Nova',h:'#8D6E63'},{n:'Dazzling',h:'#E0E0E0'},
-  {n:'Gold',h:'#FFD54F'},{n:'Belly',h:'#A5D6A7'},{n:'Aqua',h:'#80CBC4'},
-  {n:'Ocean Blue',h:'#4DD0E1'},{n:'Blue Wave',h:'#1E88E5'},{n:'Teal',h:'#00897B'},
-  {n:'Deep Teal',h:'#004D40'},{n:'Mocha',h:'#5D4037'},{n:'Falling',h:'#6D4C41'},
-  {n:'Mischief',h:'#4E342E'},{n:'Snow White',h:'#F5F5F5'},{n:'Blush Rose',h:'#FADADD'},
-];
+/* ─── Progress ─── */
+function up(){
+  let c=0;
+  ['clinicName','doctorName','contactNumber','designOpinion'].forEach(id=>{if(document.getElementById(id)?.value?.trim())c++;});
+  if(document.getElementById('changes')?.value?.trim())c++;
+  const rn=new Set();document.querySelectorAll('input[type="radio"]:checked').forEach(r=>rn.add(r.name));c+=rn.size;
+  if(document.querySelectorAll('input[type="checkbox"]:checked').length)c++;
+  const pct=Math.min(100,Math.round(c/11*100));
+  document.getElementById('progFill').style.width=pct+'%';
+  document.getElementById('progLbl').textContent=pct+'% done';
+  const w=document.getElementById('progSteps');
+  if(!w._b){w._b=1;for(let i=0;i<4;i++){const d=document.createElement('div');d.className='ps';d.id='ps'+i;w.appendChild(d);}}
+  [0,1,2,3].forEach(i=>document.getElementById('ps'+i).classList.toggle('done',pct>=(i+1)*25));
+}
+document.querySelectorAll('[data-track]').forEach(el=>{el.addEventListener('input',up);el.addEventListener('change',up);});
 
-const grid = document.getElementById('nailGrid');
-colours.forEach(col => {
-  const item = document.createElement('div');
-  item.className = 'swatch-item';
-  item.innerHTML = `
-    <div class="swatch-nail" style="background:${col.h}" title="${col.n}"></div>
-    <span class="swatch-name">${col.n}</span>
-  `;
-  item.onclick = () => showToast('🎨 ' + col.n + ' selected');
-  grid.appendChild(item);
+/* ─── Helpers ─── */
+const gR=n=>{const e=document.querySelector(`input[name="${n}"]:checked`);return e?e.value:'';};
+const gCB=()=>[...document.querySelectorAll('input[type="checkbox"]:checked')].map(e=>e.value).join(', ');
+
+/* ─── Validation ─── */
+function setE(fid,iid,bad){
+  const f=document.getElementById(fid);if(!f)return;
+  f.classList.toggle('herr',bad);
+  const i=document.getElementById(iid);if(i)i.classList.toggle('error',bad);
+}
+function validate(){
+  let ok=true;
+  [['f-clinic','clinicName'],['f-doctor','doctorName'],['f-contact','contactNumber'],['f-design','designOpinion']].forEach(([f,i])=>{
+    const bad=!document.getElementById(i).value.trim();setE(f,i,bad);if(bad)ok=false;
+  });
+  return ok;
+}
+
+/* ─── Submit ─── */
+let last={};
+document.getElementById('submitBtn').addEventListener('click',async function(){
+  if(!validate()){
+    document.querySelector('.herr')?.scrollIntoView({behavior:'smooth',block:'center'});
+    return;
+  }
+  this.classList.add('loading');
+  last={
+    clinicName:   document.getElementById('clinicName').value.trim(),
+    doctorName:   document.getElementById('doctorName').value.trim(),
+    contactNumber:document.getElementById('contactNumber').value.trim(),
+    rating:       gR('rating')||'Not rated',
+    designOpinion:document.getElementById('designOpinion').value||'Not selected',
+    contentClear: gR('contentClear')||'Not answered',
+    changes:      document.getElementById('changes').value.trim()||'None',
+    proceed:      gR('proceed')||'Not answered',
+    services:     gCB()||'None selected',
+    startTime:    gR('startTime')||'Not answered',
+    timestamp:    new Date().toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})
+  };
+  try{
+    await fetch(SCRIPT_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(last)});
+  }catch(_){}
+  this.classList.remove('loading');
+  showSuccess();
 });
 
-function toggleFaq(el) {
-  const item = el.parentElement;
-  const wasOpen = item.classList.contains('open');
-  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-  if (!wasOpen) item.classList.add('open');
+/* ─── Success modal ─── */
+function showSuccess(){
+  const rows=[
+    ['Name',last.doctorName],['Practice',last.clinicName],['Contact',last.contactNumber],
+    ['Rating',last.rating],['Design',last.designOpinion],['Content',last.contentClear],
+    ['Proceed',last.proceed],['Services',last.services],['Start',last.startTime]
+  ];
+  document.getElementById('ssumm').innerHTML=rows.map(([k,v])=>
+    `<div class="sr"><span class="sk">${k}</span><span class="sv">${v}</span></div>`).join('');
+  spawnConf();
+  const ov=document.getElementById('overlay');
+  ov.classList.add('show');
+  document.body.style.overflow='hidden';
+  document.getElementById('progFill').style.width='100%';
+  document.getElementById('progLbl').textContent='100% done';
 }
 
-function submitBooking() {
-  const v = id => document.getElementById(id).value.trim();
-  if (!v('fullname') || !v('phone') || !v('service') || !v('date') || !v('time')) {
-    showToast('⚠️ Please fill in all required fields'); return;
+function spawnConf(){
+  const b=document.getElementById('confBox');b.innerHTML='';
+  const cs=['#3b82f6','#7c3aed','#06b6d4','#10b981','#f59e0b','#f43f5e','#a78bfa'];
+  for(let i=0;i<22;i++){
+    const d=document.createElement('div');d.className='cd';
+    const sz=6+Math.random()*8;
+    d.style.cssText=`left:${Math.random()*100}%;top:${3+Math.random()*18}%;background:${cs[i%cs.length]};width:${sz}px;height:${sz}px;animation-delay:${Math.random()*.7}s;animation-duration:${1.4+Math.random()*.9}s;border-radius:${Math.random()>.5?'50%':'3px'}`;
+    b.appendChild(d);
   }
-  document.getElementById('successMsg').style.display = 'block';
-  showToast('🌸 Booking request sent!');
-  setTimeout(() => {
-    ['fullname','phone','notes'].forEach(id => document.getElementById(id).value = '');
-    ['service','time'].forEach(id => document.getElementById(id).selectedIndex = 0);
-    document.getElementById('date').value = '';
-  }, 2600);
 }
 
-function showToast(msg) {
-  const t = document.getElementById('toast');
-  t.textContent = msg; t.style.display = 'flex';
-  setTimeout(() => t.style.display = 'none', 3000);
+/* ─── Close & Reset ─── */
+function closeAndReset(){
+  document.getElementById('overlay').classList.remove('show');
+  document.body.style.overflow='';
+  // reset all fields
+  ['clinicName','doctorName','contactNumber','changes'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('designOpinion').selectedIndex=0;
+  document.querySelectorAll('input[type="radio"],input[type="checkbox"]').forEach(el=>el.checked=false);
+  const sp=document.getElementById('starPill');sp.textContent='';sp.classList.remove('show');
+  document.querySelectorAll('.herr').forEach(el=>el.classList.remove('herr'));
+  document.querySelectorAll('.error').forEach(el=>el.classList.remove('error'));
+  up();
+  window.scrollTo({top:0,behavior:'smooth'});
 }
+
+document.getElementById('btnDone').addEventListener('click',closeAndReset);
+document.getElementById('overlay').addEventListener('click',function(e){if(e.target===this)closeAndReset();});
+
+up();
 </script>
 </body>
 </html>
