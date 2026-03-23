@@ -337,7 +337,7 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue);background:#fff
             <span class="ii"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 9.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8 9a16 16 0 0 0 7 7z"/></svg></span>
             <input type="tel" id="contactNumber" placeholder="+91 98765 43210" data-track/>
           </div>
-          <span class="emsg">⚠ Enter a valid number</span>
+          <span class="emsg">⚠ Enter a valid WhatsApp/phone number (e.g. 9876543210)</span>
         </div>
       </div>
     </div>
@@ -402,9 +402,10 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue);background:#fff
       <span class="stag">STEP 3 / 4</span>
     </div>
     <div class="card-body">
-      <div class="field">
-        <label class="fl">What changes would you like? <span class="hint">(optional)</span></label>
+      <div class="field" id="f-changes">
+        <label class="fl">What changes would you like? <span class="req">*</span></label>
         <textarea id="changes" placeholder="e.g. Add my team's photos, different colour scheme, include WhatsApp button, list my specialities, update services section…" data-track></textarea>
+        <span class="emsg">⚠ Please share your suggestions</span>
       </div>
     </div>
   </div>
@@ -549,9 +550,23 @@ function setE(fid,iid,bad){
 }
 function validate(){
   let ok=true;
-  [['f-clinic','clinicName'],['f-doctor','doctorName'],['f-contact','contactNumber'],['f-design','designOpinion']].forEach(([f,i])=>{
+
+  // Text fields
+  [['f-clinic','clinicName'],['f-doctor','doctorName'],['f-design','designOpinion']].forEach(([f,i])=>{
     const bad=!document.getElementById(i).value.trim();setE(f,i,bad);if(bad)ok=false;
   });
+
+  // WhatsApp/Phone — must be 10 digits (Indian) or 10–15 digits with optional country code
+  const phone = document.getElementById('contactNumber').value.trim().replace(/[\s\-().+]/g,'');
+  const phoneOk = /^(\d{10}|91\d{10}|[1-9]\d{9,14})$/.test(phone);
+  setE('f-contact','contactNumber',!phoneOk);
+  if(!phoneOk) ok=false;
+
+  // Changes — now mandatory
+  const changesBad = !document.getElementById('changes').value.trim();
+  setE('f-changes','changes',changesBad);
+  if(changesBad) ok=false;
+
   return ok;
 }
 
@@ -628,6 +643,23 @@ function closeAndReset(){
 
 document.getElementById('btnDone').addEventListener('click',closeAndReset);
 document.getElementById('overlay').addEventListener('click',function(e){if(e.target===this)closeAndReset();});
+
+// Live phone validation — clears error as user types correctly
+document.getElementById('contactNumber').addEventListener('input',function(){
+  const phone=this.value.trim().replace(/[\s\-().+]/g,'');
+  const valid=phone===''||/^(\d{10}|91\d{10}|[1-9]\d{9,14})$/.test(phone);
+  const f=document.getElementById('f-contact');
+  if(phone!==''){f.classList.toggle('herr',!valid);this.classList.toggle('error',!valid);}
+  else{f.classList.remove('herr');this.classList.remove('error');}
+});
+
+// Live changes validation — clears error as user starts typing
+document.getElementById('changes').addEventListener('input',function(){
+  const f=document.getElementById('f-changes');
+  const bad=!this.value.trim();
+  f.classList.toggle('herr',bad);
+  this.classList.toggle('error',bad);
+});
 
 up();
 </script>
